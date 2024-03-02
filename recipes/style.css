@@ -1,0 +1,59 @@
+body {
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(255,230,175,1) 100%);
+}
+
+li {
+    margin: 10px 0;
+}
+
+.home {
+    border-radius: 50%;
+    background-color: #faf9f6;
+    text-align: center;
+    position: absolute;
+    top: -30px;
+    left: -10px;
+    width: 200px;
+    font-size: 14px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.home h2 {
+    margin-top: 40px;
+}
+
+.home a {
+    text-decoration: none;
+    color: black;
+}
+
+.home a:hover {
+    color: blue;
+}
+
+.main {
+    background-color: #faf9f6; 
+    margin: auto;
+    width: 50%;
+    padding: 30px;
+    border: 3px solid saddlebrown;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+}
+
+.hero {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.hero img {
+    width: 400px;
+    height: auto;
+}
+
+.description, .ingredients, .instructions {
+    margin-top: 20px;
+    border-top: 1px solid saddlebrown;
+}
